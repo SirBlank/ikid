@@ -16,6 +16,10 @@
 		BF1BAE802DC010760045F028 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAE7F2DC010760045F028 /* ikidTests.swift */; };
 		BF1BAE8A2DC010760045F028 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAE892DC010760045F028 /* ikidUITests.swift */; };
 		BF1BAE8C2DC010760045F028 /* ikidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAE8B2DC010760045F028 /* ikidUITestsLaunchTests.swift */; };
+		BF1BAE9D2DC05CAB0045F028 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAE9C2DC05CAB0045F028 /* GoodViewController.swift */; };
+		BF1BAE9F2DC078500045F028 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAE9E2DC078500045F028 /* PunViewController.swift */; };
+		BF1BAEA12DC086460045F028 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAEA02DC086460045F028 /* DadViewController.swift */; };
+		BF1BAEA32DC08A230045F028 /* KnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BAEA22DC08A230045F028 /* KnockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BF1BAE852DC010760045F028 /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1BAE892DC010760045F028 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		BF1BAE8B2DC010760045F028 /* ikidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF1BAE9C2DC05CAB0045F028 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		BF1BAE9E2DC078500045F028 /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		BF1BAEA02DC086460045F028 /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		BF1BAEA22DC08A230045F028 /* KnockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				BF1BAE712DC010760045F028 /* Assets.xcassets */,
 				BF1BAE732DC010760045F028 /* LaunchScreen.storyboard */,
 				BF1BAE762DC010760045F028 /* Info.plist */,
+				BF1BAE9C2DC05CAB0045F028 /* GoodViewController.swift */,
+				BF1BAE9E2DC078500045F028 /* PunViewController.swift */,
+				BF1BAEA02DC086460045F028 /* DadViewController.swift */,
+				BF1BAEA22DC08A230045F028 /* KnockViewController.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1BAE9D2DC05CAB0045F028 /* GoodViewController.swift in Sources */,
+				BF1BAEA32DC08A230045F028 /* KnockViewController.swift in Sources */,
+				BF1BAE9F2DC078500045F028 /* PunViewController.swift in Sources */,
 				BF1BAE6D2DC010750045F028 /* ViewController.swift in Sources */,
 				BF1BAE692DC010740045F028 /* AppDelegate.swift in Sources */,
+				BF1BAEA12DC086460045F028 /* DadViewController.swift in Sources */,
 				BF1BAE6B2DC010750045F028 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
